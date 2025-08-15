@@ -1,0 +1,30 @@
+%% Boulli's equation
+%Calculating systolic pressure
+p = 1060; %blood density__kg/m^3
+V2 = 38; % velocity at point two__(m/s)^2
+P1 = 16000; %Pressure at point one__Pa
+
+% Pa = kg/(m x s^2)
+% Pa = 1N/m^2
+% How the math works --- x/9.8066135801985
+
+V1 = 0; %Velocity at point one__cm/s
+
+%% Continuity Equation 
+%Incorporating a more accurate plaque buildup 
+
+Q = 0.000002; % Volumetric flow rate, how much blood is flowing
+% past a certain point in the artery each second__m^3/s
+
+%% Gaussian Distribution
+% r(x) = r0 - (delta)r * e^-((x-x0)/(theta))^2
+
+%P(x) = P0 - (1/2)p(Q/pi(r0 - (delta)r * e^-((x-x0)/(theta))^2)^2what 
+
+pi = 3.14; 
+x = 0; % position along artery__m
+x0 = 0.001; %radius at point x/ the center of plaque where radius is 
+%smallest__m
+r0 = 0.002; %normal / healthy radius of a coronary artery__m
+Dr = 0; %maximum amount radius is reduced at center__m
+sig = 0.003; %sigma, how wide the plaque buildup is__m
