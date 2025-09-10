@@ -1,7 +1,7 @@
 ## Stephon's 2025 Project
 The goal of this project is to model plaque buildup within a coronary artery. The following things will be modeled:
 - Plaque buildup within a coronary artery
-- Change in pressure as a result of plaque buildup
+- Change in blood pressure as a result of plaque buildup
 - Graphs demonstrating change in blood pressure
 - Bernoulli's Equation
 - Cross Sectional Area
