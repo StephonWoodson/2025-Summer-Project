@@ -12,7 +12,7 @@ The goal of this project is to model plaque buildup within a coronary artery. Th
 ## How to properly use the software
 1. Open the Bernoulli’s equation folder, once in the folder locate the files Bernoullis_Eq_Sim.slx and Bernoullis_Equation_Var.m.
 2. Run the .m file to load the variables into the workspace.
-Screenshot2025-09-10142226.png
+(Screenshot2025-09-10142226.png)
 * The variables that need to be loaded in are named V1_m/s, V2_m/s, P1_Pa, and p_kgpm3.
 4. Run the Simulink program.
 * Once you have run the Simulink program you will see the estimated blood pressure to the right at the end of the code in the display window named "pressure at point two1" in simulink.
