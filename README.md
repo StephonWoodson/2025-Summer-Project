@@ -11,7 +11,7 @@ The goal of this project is to model plaque buildup within a coronary artery. Th
 ## How to properly use the software
 1. Open the bernoulli's equation folder, once in the folder locate the files Bernoullis_Eq_Sim.slx and Bernoullis_Equation_Var.m.
 2. Run the .m file to load the variables into the workspace.
-   i. The varaibles that need to be loaded in are named V1_m/s, V2_m/s, P1_Pa, and p_kgpm3.
+   * The varaibles that need to be loaded in are named V1_m/s, V2_m/s, P1_Pa, and p_kgpm3.
 4. Run the simulink program.
    i. Once you have run the simulink program you will see the answer to the right at the end of the code in the display window named "pressure at point two1".
 5. When you are ready to experiment with different nubmers you will start by changing the variable of velocity at point 2 (V2_m/s) to a number within a reasonable range of blood velocity within an artery. It is advised to use numbers around 38. If the number is too high, or low simulink will produce unrealistic results.
