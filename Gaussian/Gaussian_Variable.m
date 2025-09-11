@@ -25,6 +25,6 @@ x_m = 0.001; % position along artery, either negative or positive, 0 is the
 % middle__m
 x0_m = 0; % the center of the plaque smallest__m
 r0_m = 0.002; %normal / healthy radius of a coronary artery__m
-Dr_m = 0.001; %maximum amount of artery radius reduction at the center__m
+deltaRadius_m = 0.001; %maximum amount of artery radius reduction at the center__m
 sig_m = 0.0009; %sigma, how wide the plaque buildup is, small is narrow,
 % large is gradual and spread out over a longer distance__m
