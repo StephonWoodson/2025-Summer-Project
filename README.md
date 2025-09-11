@@ -47,5 +47,5 @@ Once you are finished experimenting and plugging in different values for the vol
 21. `Dr_m` is the maximum amount of artery radius reduction at the center. This is how much the radius of the coronary artery is reduced due to the plaque buildup. This number can be anything around 0.001m. This number can be experimented with; however, this cannot be larger than 0.002m, or a radius that is too small for a coronary artery. This will result in the simulation giving inaccurate numbers.
 22. `x_m` is the position along the coronary artery. If this number is further away from 0.001, ex 0.002, then this will model a relatively flat plaque buildup. The closer this value is to 0, the steeper the plaque buildup.
 
-Within all these equations in the simulink files, which are the files with .slx, under the display window there will be a scope window. This scope window provides a sine graph which helps provide a visual representation of how the blood pressure will fluctuate due to the plaque buildup. 
+Within all these equations in the simulink files, which are the files with `.slx`, under the display window there will be a scope window. This scope window provides a sine graph which helps provide a visual representation of how the blood pressure will fluctuate due to the plaque buildup. 
 
