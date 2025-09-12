@@ -13,7 +13,7 @@ The goal of this project is to model plaque buildup within a coronary artery. Th
 2. Run the `.m` file to load the variables into the workspace.
 3. The variables that need to be loaded in are named `V1_m/s`, `V2_m/s`, `P1_Pa`, and `p_kgpm3`.
 * Below is an example of what the matlab program should look like after running the code
-![Screenshot of matlab after running the program.](Screenshot_2025-09-10_142226.png)
+![Screenshot of matlab after running the program.](P)
 4. Run the Simulink program.
 * Once you have run the Simulink program you will see the estimated blood pressure to the right at the end of the code in the display window named "pressure at point two1" in simulink.
 ![Screenshot of simulink after running the program.](Screenshot_2025-09-10_142306.png)
