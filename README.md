@@ -16,7 +16,7 @@ This readme
 3. The variables that need to be loaded in are named `V1_m/s`, `V2_m/s`, `P1_Pa`, and `p_kgpm3`.
 4. Run the Simulink program.
 * Once you have run the Simulink program you will see the estimated blood pressure to the right at the end of the code in the display window named "pressure at point two" in simulink.
-![Screenshot of simulink after running the program.](Screenshot_2025-09-10_142306.png)
+![Screenshot of simulink after running the program.](Screenshot_2025-09-14_163634.png)
 5. When you are ready to experiment with different numbers you will start by changing the variable of velocity at point 2 `V2_m/s` to a number within a reasonable range of blood velocity within an artery. It is advised to use numbers around 38 m/s. If the number is too high, or low Simulink will produce unrealistic results.
 * NOTE - Ensure that you use the proper units.
 6. Blood density `p_kgpm3` is a constant that does not need to undergo any changes, if this variable is not 1.060 kg/m^3 then Simulink will produce unrealistic numbers.
