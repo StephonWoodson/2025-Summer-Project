@@ -7,19 +7,19 @@ The goal of this project is to model plaque buildup within a coronary artery. Th
 - Cross Sectional Area
 - Gaussian Distribution
 
+## Overview
+This readme 
 
 ## How to properly use the software
 1. Open the Bernoulli’s equation folder, once in the folder locate the files `Bernoullis_Eq_Sim.slx` and `Bernoullis_Equation_Var.m`.
 2. Run the `.m` file to load the variables into the workspace.
 3. The variables that need to be loaded in are named `V1_m/s`, `V2_m/s`, `P1_Pa`, and `p_kgpm3`.
-* Below is an example of what the matlab program should look like after running the code
-![Screenshot of matlab after running the program.](P)
 4. Run the Simulink program.
-* Once you have run the Simulink program you will see the estimated blood pressure to the right at the end of the code in the display window named "pressure at point two1" in simulink.
+* Once you have run the Simulink program you will see the estimated blood pressure to the right at the end of the code in the display window named "pressure at point two" in simulink.
 ![Screenshot of simulink after running the program.](Screenshot_2025-09-10_142306.png)
-5. When you are ready to experiment with different numbers you will start by changing the variable of velocity at point 2 `V2_m/s` to a number within a reasonable range of blood velocity within an artery. It is advised to use numbers around 38. If the number is too high, or low Simulink will produce unrealistic results.
-* NOTE - If you find units form the internet ensure that you properly convert your units into m/s.
-6. Blood density `p_kgpm3` is a constant that does not need to undergo any changes, if this variable is not 1.060 then Simulink will produce unrealistic numbers.
+5. When you are ready to experiment with different numbers you will start by changing the variable of velocity at point 2 `V2_m/s` to a number within a reasonable range of blood velocity within an artery. It is advised to use numbers around 38 m/s. If the number is too high, or low Simulink will produce unrealistic results.
+* NOTE - Ensure that you use the proper units.
+6. Blood density `p_kgpm3` is a constant that does not need to undergo any changes, if this variable is not 1.060 kg/m^3 then Simulink will produce unrealistic numbers.
 7. Pressure at point 1 `P1_Pa` can be changed within a realistic range. This range is 1200Pa-1600Pa.
 8. Velocity at point 1 `V1_m/s` will always be zero. Under no circumstances should this number change otherwise the equation will be inaccurate.
 
@@ -45,7 +45,7 @@ Once you are finished experimenting and plugging in different values for the vol
 19. The only variables that will stay constant is `V2_mps`, `P1_Pa`, `p_kgpm3`, `x0_m`, `pi_nd`, and `r0_m`.
 20. `sig_m` will be the width of plaque buildup. I advise this number to stay around 0.0009m as you become more familiar with the formula. However, this number can be anything as long as it stays realistic to the width of a coronary artery. Meaning it cannot be too large or too small.
 21. `deltaRadius_m` is the maximum amount of artery radius reduction at the center. This is how much the radius of the coronary artery is reduced due to the plaque buildup. This number can be anything around 0.001m. This number can be experimented with; however, this cannot be larger than 0.002m, or a radius that is too small for a coronary artery. This will result in the simulation giving inaccurate numbers.
-22. `x_m` is the position along the coronary artery. If this number is further away from 0.001, ex 0.002, then this will model a relatively flat plaque buildup. The closer this value is to 0, the steeper the plaque buildup.
+22. `x_m` is the position along the coronary artery. If this number is further away from 0.001m, ex 0.002m, then this will model a relatively flat plaque buildup. The closer this value is to 0, the steeper the plaque buildup.
 
-Within all these equations in the simulink files, which are the files with `.slx`, under the display window there will be a scope window. This scope window provides a sine graph which helps provide a visual representation of how the blood pressure will fluctuate due to the plaque buildup. 
+In the simulink programs under each display window there will be a scope. This scope provides a sine graph which helps provide a visual representation of how the blood pressure will fluctuate due to the plaque buildup. In `Bernoullis_Eq_Sim.slx` the sine window will be labeled "Scope 2".
 
