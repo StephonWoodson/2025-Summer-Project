@@ -8,7 +8,7 @@ The goal of this project is to model plaque buildup within a coronary artery. Th
 - Gaussian Distribution
 
 ## Overview
-This readme 
+This readme goes through the progression of the project and modeling plaque buildup within a coronary artery. As you progress through the readme the simulations will build upon each other  becoming more complex and more realistic. 
 
 ## How to properly use the software
 1. Open the Bernoulli’s equation folder, once in the folder locate the files `Bernoullis_Eq_Sim.slx` and `Bernoullis_Equation_Var.m`.
