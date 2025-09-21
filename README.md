@@ -1,4 +1,4 @@
-## Stephon's 2025 Project
+## Modeling Plaque Buildup in a Coronary Artery: Stephon Woodson's 2025 Summer Project
 The goal of this project is to model plaque buildup within a coronary artery. The following things will be modeled:
 - Plaque buildup within a coronary artery
 - Change in blood pressure as a result of plaque buildup
