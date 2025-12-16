@@ -38,6 +38,7 @@ Once you are finished experimenting and plugging in different values for the vol
 
 15. Close the previous program.
 16. Open the Gaussian folder, once in this folder open the `Gaussian_Principle.slx` and `Gaussian_Variable.m`.
+![Screenshot of simulink after running the program.](Screenshot 2025-12-16_132453.png)  
 17. Run the `m.` file to load the variables into the workspace
 * Variables that should be seen are named `p_kgpm3`, `V2_mps`, `P1_Pa`, `Q_m3ps`, `pi_nd`, `x_m`, `x0_m`, `r0_m`, `Dr_m`, `sig_m`.
 18. Run the Simulink program.
